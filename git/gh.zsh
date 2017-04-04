@@ -1,5 +1,5 @@
 #!/bin/sh
-  
+
 gh_help(){
     echo "Usage: gh <subcommand> [options]\n"
     echo "Subcommands:"
@@ -11,11 +11,11 @@ gh_help(){
     echo "gh <subcommand> -h|--help"
     echo ""
 }
-  
+
 gh_browse() {
     open `git remote -v | awk '/fetch/{print $2}' | sed -Ee 's#(git@|git://)#http://#' -e 's@com:@com/@'`| head -n1
 }
-  
+
 gh_clone() {
     git clone "ssh://git@github.com/$1.git" ~/Projects/github/$1
     gh_cd "$1"

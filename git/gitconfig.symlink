@@ -117,3 +117,6 @@
     markEmptyLines = false
 [merge]
     ff = only
+[user]
+	name = Jon Schneider
+	email = jkschneider@gmail.com

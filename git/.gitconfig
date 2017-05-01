@@ -1,7 +1,7 @@
 [include]
     path = /Users/jschneider/.gitconfig_local
 [core]
-    excludesfile = /Users/jschneider/.gitignore_global
+	excludesfile = /Users/jschneider/.gitignore_global
     pager = "diff-so-fancy | less --tabs=4 -RFX"
 [color]
 	ui = true
@@ -120,3 +120,9 @@
 [user]
 	name = Jon Schneider
 	email = jkschneider@gmail.com
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

@@ -22,7 +22,7 @@ link_files () {
 }
 
 link_file () {
-  ln -s $1 $2
+  ln -f -s $1 $2
   success "linked $1 to $2"
 }
 

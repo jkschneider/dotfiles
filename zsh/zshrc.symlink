@@ -27,12 +27,10 @@ yippee-ki-yay() {
 }
 
 # define oh-my-zsh plugins implicitly based on the topics
-plugins=("${(@f)$(find $DOTFILES -not -name '.git' -d 1 -type d -exec basename {} \;)}")
-
-plugins+=("${(@f)$(find $DOTFILES/local -not -name '.git' -d 1 -type d -exec basename {} \;)}")
+plugins=(docker git gradle)
 
 # add any plugins defined by files
-plugins+=("${(@f)$(find -L $DOTFILES -name oh-my-zsh.plugins -d 2 -exec cat {} \;)}")
+plugins+=("${(@f)$(find -L $DOTFILES -maxdepth 2 -name oh-my-zsh.plugins -exec cat {} \;)}")
 
 # load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
@@ -44,10 +42,10 @@ then
 fi
 
 # make sure DEFAULT_USER has been set
-if [ -z "$DEFAULT_USER" ]; then
-  echo "Please set DEFAULT_USER in your ~/.localrc"
-  exit 1
-fi
+#if [ -z "$DEFAULT_USER" ]; then
+#  echo "Please set DEFAULT_USER in your ~/.localrc"
+#  exit 1
+#fi
 
 # all of our zsh files
 typeset -U config_files
@@ -81,6 +79,3 @@ done
 unset config_files
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
-# added by travis gem
-[ -f /Users/jschneider/.travis/travis.sh ] && source /Users/jschneider/.travis/travis.sh

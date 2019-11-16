@@ -2,7 +2,6 @@ asciinema
 bash
 coreutils
 curl
-dos2unix
 findutils
 fpp
 gnu-sed
@@ -10,13 +9,10 @@ grc
 httpie
 httpstat
 jq
-lolcat
 md5sha1sum
 osquery
 parallel
 pkgdiff
 readline
-the_silver_searcher
 tree
 wget
-xmlstarlet

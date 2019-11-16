@@ -1,7 +1,7 @@
 docker
-jetbrains-toolbox
-java6
+intellij-idea-ce
 zulu
-zulu7
 zulu8
-zulu11
+visual-studio-code
+
+

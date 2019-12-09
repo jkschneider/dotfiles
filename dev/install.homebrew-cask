@@ -1,7 +1,5 @@
-docker
 intellij-idea-ce
-zulu
-zulu8
 visual-studio-code
-
-
+AdoptOpenJDK/openjdk/adoptopenjdk8
+AdoptOpenJDK/openjdk/adoptopenjdk11
+AdoptOpenJDK/openjdk/adoptopenjdk13

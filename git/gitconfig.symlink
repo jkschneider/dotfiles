@@ -1,8 +1,9 @@
 [include]
-    path = /Users/jonathans/.gitconfig_local
+    path = /Users/jon/.gitconfig_local
 [core]
-	excludesfile = /Users/jonathans/.gitignore_global
+	excludesfile = /Users/jon/.gitignore_global
     pager = "diff-so-fancy | less --tabs=4 -RFX"
+	editor = atom --wait
 [diff-so-fancy]
     markEmptyLines = false
 	first-run = false

@@ -6067,9 +6067,9 @@
 	<key>NSWindow Frame SUStatusFrame</key>
 	<string>1088 983 384 129 0 0 2560 1440 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>530 496 620 392 0 0 1680 1027 </string>
+	<string>586 528 620 392 0 0 1792 1097 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>18 87 1630 890 0 0 1680 1027 </string>
+	<string>381 164 1243 764 0 0 1792 1097 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>336 211 1270 722 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
@@ -6796,8 +6796,11 @@
 	</array>
 	<key>NoSyncAllAppVersions</key>
 	<array>
-		<string>1.0.0.20140112</string>
+		<string>3.3.8beta3</string>
+		<string>3.3.8beta1</string>
 		<string>3.3.6</string>
+		<string>3.3.8beta2</string>
+		<string>1.0.0.20140112</string>
 	</array>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
@@ -6809,7 +6812,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>7D56F2D8-BE9F-4153-A1F0-4F6C5AB2FA81</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>13</integer>
+	<integer>17</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -7600,7 +7603,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/jonathans/.dotfiles/terminal</string>
+	<string>/Users/jon/.dotfiles/terminal</string>
 	<key>PromptOnClose</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -7612,7 +7615,7 @@
 	<key>RightOption</key>
 	<integer>3</integer>
 	<key>SUAutomaticallyUpdate</key>
-	<false/>
+	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -7622,9 +7625,9 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-11-21T07:48:16Z</date>
-	<key>SUSkippedVersion</key>
-	<string>3.3.7beta4</string>
+	<date>2019-12-23T13:22:54Z</date>
+	<key>SUUpdateRelaunchingMarker</key>
+	<false/>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -7632,7 +7635,7 @@
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>ShowPaneTitles</key>
 	<true/>
 	<key>SmartPlacement</key>
@@ -7680,7 +7683,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.3.6</string>
+	<string>3.3.8beta3</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
